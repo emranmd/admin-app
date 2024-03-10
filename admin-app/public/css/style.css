@@ -1,0 +1,1349 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      overflow-x: hidden;
+  }
+
+ 
+
+
+/*-- reviewTop_menuArea start--*/
+
+.reviewTop_menuArea {
+    background-image: linear-gradient(to bottom, #eaeaea, #e7e7e7, #d1d1d199, #d1d1d199, #d1d1d199, #d1d1d199, #afafaf66, #d6d4d4de, #b6b6b6e0, #a9a8a8e8, #918c8cf7, #242424d9);
+}
+.reviewTop_menuArea .reviewTop_menuBodyContainer {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+}
+.logoAndContent .logoImageBox img {
+    width: 95px;
+    object-fit: cover;
+    max-width: 100%;
+}
+.logoAndContent .cafeName_andLocation h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+    line-height: 50px;
+}
+.logoAndContent .cafeName_andLocation p {
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 0;
+}
+.logoAndContent .cafeName_andLocation i {
+    padding-right: 5px;
+}
+.logoAndContent .cafeName_andLocation .openButton {
+    font-size: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background: #00aa71;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 2px;
+    letter-spacing: 0.2px;
+}
+.reviewTop_menuBodyContainer .logoAndContent {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.reviewTop_menuBodyContainer .cafeShope_imageBox img {
+    width: 440px;
+    height: 250px;
+    object-fit: cover;
+}
+.logoAndContent .cafeName_andLocation p {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: white;
+    letter-spacing: .3px;
+    text-shadow: 0 0.5px #000000b0;
+}
+.reviewTop_menuBodyContainer .cafeTimeContent {
+    padding-left: 40px;
+}
+.reviewTop_menuBodyContainer .cafeTimeContent p {
+    font-size: 10px;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.reviewTop_menuBodyContainer .cafeTimeContent i {
+    padding-right: 5px;
+    font-size: 9px;
+}
+
+/*-- reviewTop_menuArea end--*/
+
+
+
+/*-- shopItems_section start--*/
+
+.shopItems_section {
+    padding-top: 70px;
+    background: #F1F5F6;
+}
+.shopItems_searchBox {
+    position: relative;
+}
+.shopItems_section .shopItems_searchBox input {
+    width: 100%;
+    height: 45px;
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    color: #000000;
+    padding-left: 20px;
+    border: none;
+    box-shadow: 0 7px 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background: white;
+    outline: none;
+}
+.shopItems_section .shopItems_searchBox button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 45px;
+    width: 40px;
+    background: #404FB6;
+    border: none;
+    color: white;
+    border-radius: 0 8px 8px 0px;
+}
+
+/*-- soupItemsArea start--*/
+
+.shopItems_section .soupItemsArea {
+    margin-top: 40px;
+}
+.soupItemsArea .soupItemsInfo {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    background: white;
+    position: relative;
+}
+.soupItemsArea .soupItemTittle P {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+}
+.soupItemsArea .soupItemTittle span {
+    font-size: 9px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #8e8e8e;
+    letter-spacing: 0.3px;
+}
+.soupItemsArea .soupItemTittle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.mushroomItems_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mushroomItems_imgAndNameBox .mushroomItems_NameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.mushroomItems_NameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00b894;
+}
+.mushroomItems_NameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00b894;
+    top: 21%;
+    left: 21%;
+}
+.mushroomItems_imgAndNameBox .mushroomItems_NameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.soupItemsInfo .mushroomItems_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+    border-bottom: 1px solid #c5c2c2c7;
+}
+.mushroomItems_NameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.mushroomItems_imgAndNameBox .mushroomItems_NameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.noodleItems_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.noodleItems_imgAndNameBox .noodleItems_NameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.noodleItems_NameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid red;
+}
+.noodleItems_NameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: red;
+    top: 21%;
+    left: 21%;
+}
+.noodleItems_imgAndNameBox .noodleItems_NameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.soupItemsInfo .noodleItems_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+}
+.noodleItems_NameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.noodleItems_imgAndNameBox .noodleItems_NameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*-- soupItemsArea end--*/
+
+
+/*-- coffeeItemsArea start--*/
+
+.shopItems_section .coffeeItemsArea {
+    margin-top: 40px;
+}
+.coffeeItemsArea .coffeeItemsInfo {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    background: white;
+    position: relative;
+}
+
+.coffeeItemsArea .coffeeItemTittle P {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+}
+.coffeeItemsArea .coffeeItemTittle span {
+    font-size: 9px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #8e8e8e;
+    letter-spacing: 0.3px;
+}
+.coffeeItemsArea .coffeeItemTittle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.blackCoffee_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.blackCoffee_imgAndNameBox .blackCoffee_nameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.blackCoffee_nameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00b894;
+}
+.blackCoffee_nameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00b894;
+    top: 21%;
+    left: 21%;
+}
+.blackCoffee_nameAndButton .itemName del {
+    color: red;
+}
+.blackCoffee_imgAndNameBox .blackCoffee_nameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.coffeeItemsInfo .blackCoffee_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+    border-bottom: 1px solid #c5c2c2c7;
+}
+.blackCoffee_nameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.blackCoffee_imgAndNameBox .blackCoffee_nameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.espressoCoffee_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.espressoCoffee_imgAndNameBox .espressoCoffee_NameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.espressoCoffee_NameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00b894;
+}
+.espressoCoffee_NameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00b894;
+    top: 21%;
+    left: 21%;
+}
+.espressoCoffee_imgAndNameBox .espressoCoffee_NameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.coffeeItemsInfo .espressoCoffee_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+    border-bottom: 1px solid #c5c2c2c7;
+}
+.espressoCoffee_NameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.espressoCoffee_imgAndNameBox .espressoCoffee_NameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cafeLatte_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.cafeLatte_imgAndNameBox .cafeLatte_nameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.cafeLatte_nameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00b894;
+}
+.cafeLatte_nameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00b894;
+    top: 21%;
+    left: 21%;
+}
+.cafeLatte_imgAndNameBox .cafeLatte_nameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.coffeeItemsInfo .cafeLatte_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+}
+.cafeLatte_nameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.cafeLatte_imgAndNameBox .cafeLatte_nameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*-- coffeeItemsArea end--*/
+
+
+/*-- teaItemsArea start--*/
+
+.shopItems_section .teaItemsArea {
+    margin-top: 40px;
+}
+.teaItemsArea .teaItemsInfo {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    background: white;
+    position: relative;
+}
+.teaItemsArea .teaItemTittle P {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+}
+.teaItemsArea .teaItemTittle span {
+    font-size: 9px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #8e8e8e;
+    letter-spacing: 0.3px;
+}
+.teaItemsArea .teaItemTittle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.masalaChaiItems_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.masalaChaiItems_imgAndNameBox .masalaChaiItems_NameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.masalaChaiItems_NameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00b894;
+}
+.masalaChaiItems_NameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00b894;
+    top: 21%;
+    left: 21%;
+}
+.masalaChaiItems_imgAndNameBox .masalaChaiItems_NameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.teaItemsInfo .masalaChaiItems_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+    border-bottom: 1px solid #c5c2c2c7;
+}
+.masalaChaiItems_NameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.masalaChaiItems_imgAndNameBox .masalaChaiItems_NameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.morocconteaItems_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.morocconteaItems_imgAndNameBox .morocconteaItems_NameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.morocconteaItems_NameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00b894;
+}
+.morocconteaItems_NameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00b894;
+    top: 21%;
+    left: 21%;
+}
+.morocconteaItems_imgAndNameBox .morocconteaItems_NameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.teaItemsInfo .morocconteaItems_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+}
+.morocconteaItems_NameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.morocconteaItems_imgAndNameBox .morocconteaItems_NameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*-- teaItemsArea end--*/
+
+
+/*-- pizzaAndPasta_itemsArea start--*/
+
+.shopItems_section .pizzaAndPasta_itemsArea {
+    margin-top: 40px;
+}
+.pizzaAndPasta_itemsArea .pizzaAndPasta_itemsInfo {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    background: white;
+    position: relative;
+}
+.pizzaAndPasta_itemsArea .pizzaAndPastaItemTittle P {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+}
+.pizzaAndPasta_itemsArea .pizzaAndPastaItemTittle span {
+    font-size: 9px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #8e8e8e;
+    letter-spacing: 0.3px;
+}
+.pizzaAndPasta_itemsArea .pizzaAndPastaItemTittle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.margaritaPizza_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.margaritaPizza_imgAndNameBox .margaritaPizza_nameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.margaritaPizza_nameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00b894;
+}
+.margaritaPizza_nameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00b894;
+    top: 21%;
+    left: 21%;
+}
+.margaritaPizza_imgAndNameBox .margaritaPizza_nameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.pizzaAndPasta_itemsInfo .margaritaPizza_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+    border-bottom: 1px solid #c5c2c2c7;
+}
+.margaritaPizza_nameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.margaritaPizza_imgAndNameBox .margaritaPizza_nameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.paneerPizza_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.paneerPizza_imgAndNameBox .paneerPizza_NameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.paneerPizza_NameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00b894;
+}
+.paneerPizza_NameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00b894;
+    top: 21%;
+    left: 21%;
+}
+.paneerPizza_imgAndNameBox .paneerPizza_NameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.pizzaAndPasta_itemsInfo .paneerPizza_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+    border-bottom: 1px solid #c5c2c2c7;
+}
+.paneerPizza_NameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.paneerPizza_imgAndNameBox .paneerPizza_NameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.chickenPizza_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.chickenPizza_imgAndNameBox .chickenPizza_nameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.chickenPizza_nameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid red;
+}
+.chickenPizza_nameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: red;
+    top: 16%;
+    left: 21%;
+}
+.chickenPizza_imgAndNameBox .chickenPizza_nameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.pizzaAndPasta_itemsInfo .chickenPizza_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+}
+.chickenPizza_nameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.chickenPizza_imgAndNameBox .chickenPizza_nameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*-- pizzaAndPasta_itemsArea end--*/
+
+/*-- recommendedItemsArea start--*/
+
+.shopItems_section .recommendedItemsArea {
+    margin-top: 40px;
+}
+.recommendedItemsArea .recommendedItemsInfo {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    background: white;
+    position: relative;
+}
+.recommendedItemsArea .recommendedItemTittle P {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+}
+.recommendedItemsArea .recommendedItemTittle span {
+    font-size: 9px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #8e8e8e;
+    letter-spacing: 0.3px;
+}
+.recommendedItemsArea .recommendedItemTittle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.saladItems_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.saladItems_imgAndNameBox .saladItems_NameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.saladItems_NameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00b894;
+}
+.saladItems_NameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00b894;
+    top: 21%;
+    left: 21%;
+}
+.saladItems_NameAndButton .itemName del{
+    color: red;
+}
+.saladItems_imgAndNameBox .saladItems_NameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.recommendedItemsInfo .saladItems_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+    border-bottom: 1px solid #c5c2c2c7;
+}
+.saladItems_NameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.saladItems_imgAndNameBox .saladItems_NameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.breastItems_imgAndNameBox .itemsImgBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.breastItems_imgAndNameBox .breastItems_NameAndButton .itemName h5 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.breastItems_NameAndButton .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid red;
+}
+.breastItems_NameAndButton .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: red;
+    top: 15%;
+    left: 21%;
+}
+.breastItems_imgAndNameBox .breastItems_NameAndButton .itemName p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #686666;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 22px;
+}
+.recommendedItemsInfo .breastItems_imgAndNameBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 13px 12px;
+}
+.breastItems_NameAndButton .itemsButton a {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #706666;
+    border: 1.6px solid #777575bd;
+    padding: 2px 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.breastItems_imgAndNameBox .breastItems_NameAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*-- recommendedItemsArea end--*/
+
+/*-- shopItems_section end--*/
+
+
+
+/*-- modalArea start--*/
+
+.shopItems_section .modal{
+    background: rgb(255 255 255 / 59%);
+}
+.shopItems_section .modal .modal-dialog {
+    max-width: 90% !important;
+}
+.modalButoonStyle {
+    width: 100%;
+    background: #404FB6;
+    color: white;
+    position: relative;
+    top: -10px;
+    box-shadow: 0 9px 16px rgb(72 71 71 / 26%);
+    border: none;
+    margin-bottom: 10px;
+}
+.modalButoonStyle .buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.buttonContainer .buttonLeftContent p {
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+.buttonContainer .buttonLeftContent i {
+    font-size: 8px;
+    padding-right: 5px;
+}
+.buttonContainer .buttonRightContent p {
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+.buttonContainer .buttonRightContent i {
+    font-size: 8px;
+    padding-left: 5px;
+}
+.buttonContainer .buttonRightContent p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    font-family: 'roboot', sans-serif;
+}
+
+/*-- itemsPriceDetails start--*/
+
+.itemsContainer .itemHeadTittle h6 {
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+.itemsNameAndPrice .mushroomItemsBox {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #d8d2d2;
+}
+.mushroomItemsBox .itemsImgBox img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.mushroomItemsButtonBox .itemName h5 {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.mushroomItemsButtonBox .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00aa71;
+}
+.mushroomItemsButtonBox .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00aa71;
+    top: 17%;
+    left: 13%;
+}
+.mushroomItemsButtonBox .itemName p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 9px;
+    line-height: 20px;
+    color: #716c6c;
+}
+.mushroomItemsBox .mushroomItemsButtonBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.itemsNameAndPrice .cafeLatteItemsBox {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #d8d2d2;
+}
+.cafeLatteItemsBox .itemsImgBox img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.itemsName_andButtonBox .itemName h5 {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.itemsName_andButtonBox .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00aa71;
+}
+.itemsName_andButtonBox .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00aa71;
+    top: 17%;
+    left: 13%;
+}
+.itemsName_andButtonBox .itemName p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 9px;
+    line-height: 20px;
+    color: #716c6c;
+}
+.cafeLatteItemsBox .itemsName_andButtonBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.itemsNameAndPrice .saladItemsBox {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #d8d2d2;
+}
+.saladItemsBox .itemsImgBox img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.saladItemsButtonBox .itemName h5 {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.saladItemsButtonBox .itemName span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1.4px solid #00aa71;
+}
+.saladItemsButtonBox .itemName span:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00aa71;
+    top: 17%;
+    left: 13%;
+}
+.saladItemsButtonBox .itemName p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 9px;
+    line-height: 20px;
+    color: #716c6c;
+}
+.saladItemsBox .saladItemsButtonBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.itemsButton .inputButton .pieceButton {
+    height: 22px;
+    width: 22px;
+    border: none;
+    background: white;
+    color: #636e72;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px 6px 6px 6px;
+}
+.itemsButton .inputButton {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #636e72;
+    border-radius: 6px;
+}
+.itemsButton .inputButton .buttonInput {
+    width: 25px;
+    text-align: center;
+    height: 22px;
+    font-size: 11px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: none;
+    background: #636e72;
+    color: white;
+}
+.mushroomItemsButtonBox .itemsButton h6 {
+    font-size: 11px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.mushroomItemsButtonBox .itemsButton h6 i {
+    font-size: 10px;
+    padding-right: 1px;
+}
+.itemsName_andButtonBox .itemsButton h6 {
+    font-size: 11px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.itemsName_andButtonBox .itemsButton h6 i {
+    font-size: 10px;
+    padding-right: 1px;
+}
+.saladItemsButtonBox .itemsButton h6 {
+    font-size: 11px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.saladItemsButtonBox .itemsButton h6 i {
+    font-size: 10px;
+    padding-right: 1px;
+}
+
+
+
+/*-- itemsPriceDetails end--*/
+
+
+
+/*-- modalArea end--*/

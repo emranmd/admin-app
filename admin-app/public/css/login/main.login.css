@@ -1,0 +1,59 @@
+/* loginSectionArea start */
+
+.loginSectionArea {
+    background: #00C9A7;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginSectionArea .loginFormArea {
+    background: #12192C;
+    padding: 30px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 30px #088d79;
+}
+.loginFormArea .title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.loginFormArea .formGroup{
+    position: relative;
+}
+.loginFormArea .formGroup label {
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+.loginFormArea .login_BtnStyle {
+    background: #00C9A7;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+}
+.loginFormArea .formButton a {
+    color: #00C9A7;
+    font-family: sans-serif;
+}
+.loginFormArea .formGroup .iconStyle {
+    position: absolute;
+    top: 72%;
+    color: #d6d6d6;
+    font-size: 16px;
+    transform: translateY(-50%);
+    padding-left: 10px;
+}
+.loginFormArea .formGroup input {
+    padding-left: 35px;
+    background: #12192C;
+    box-shadow: 0 1.5px 0px #bebebe;
+    color: white;
+}
+.loginFormArea .formGroup input:focus{
+    border-color: #00C9A7;
+    box-shadow: 0 1.5px 0px #00C9A7;
+}
+
+
+/* loginSectionArea end */

@@ -1,0 +1,125 @@
+.wrapper .main-header {
+    background: #343a40;
+}
+.navbar-expand .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-expand .navbar-nav .nav-link:hover {
+    color: #cec9c9;
+}
+.navbar-expand .navbar-nav .dropdown-menu {
+    background: #343a40;
+}
+.navbar-expand .navbar-nav .dropdown-menu .media-body {
+    color: white;
+}
+.content-wrapper {
+    background: #3f474e;
+    color: white;
+}
+body.dark .card {
+    background: #343a40;
+}
+body.dark .card-body p {
+    color: #fffafa;
+}
+.breadcrumb-item a {
+    color: white;
+}
+.breadcrumb-item.active {
+    color: #c5c5c5;
+}
+.main-footer {
+    background: #343a40;
+    color: white;
+    border-top: 1px solid #4f5962;
+}
+.dropdown-menu-lg .dropdown-item {
+    padding: 0.5rem 1rem;
+    color: white;
+}
+.dropdown-menu-lg .dropdown-item:hover{
+    color: #343a40;
+}
+.navbar-expand .navbar-nav .dropdown-menu .media-body:hover {
+    color: #343a40;
+}
+.todo-list > li {
+    background-color: #5a5d60;
+    color: #ffffff;
+}
+.todo-list > li .tools {
+    color: #ffffff;
+}
+.todo-list > li.done {
+    color: #cdcdcd;
+}
+[class*="sidebar-dark-"] {
+    background-color: #343a40;
+}
+[class*="sidebar-dark"] .brand-link, [class*="sidebar-dark"] .brand-link .pushmenu {
+    color: white;
+}
+[class*="sidebar-dark"] .brand-link:hover, [class*="sidebar-dark"] .brand-link .pushmenu:hover {
+    color: #d1d1d2;
+}
+[class*="sidebar-dark"] .brand-link {
+    border-bottom: 1px solid #4f5962;
+}
+[class*="sidebar-dark-"] .sidebar a {
+    color: #fff;
+}
+.nav-pills .nav-link:not(.active):hover {
+    color: #cfcfcf;
+}
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link {
+    color: #f2f2f2;
+}
+.main-header {
+    border-bottom: 1px solid #4f5962;
+}
+.table-bordered th, .table-bordered td {
+    border: 1px solid #4f5962;
+}
+.table-bordered {
+    border: 1px solid #4f5962;
+}
+.elevation-4 {
+    box-shadow: 0 14px 28px rgb(79 79 79 / 25%), 0 10px 10px rgb(255 255 255 / 0%) !important;
+}
+.basicTableArea .addButton {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 2px 2px 2px transparent;
+}
+.card-header {
+    border-bottom: 1px solid #4f5962;
+}
+.basicTableArea .table thead th {
+    border-bottom: 2px solid #4f5962;
+}
+.detailsSection .formGroup label {
+    color: #ffffff;
+}
+.detailsSection .formGroup input {
+    background: #3f474e;
+    border-color: #bdbdbda1;
+    color: white;
+}
+.detailsSection .formIcons {
+    position: absolute;
+    top: 72%;
+    transform: translateY(-50%);
+    padding: 6.6px 7px;
+    margin-left: 1px;
+    color: #e4e1e1;
+}
+.detailsSection .btn_style {
+    font-family: sans-serif;
+    background: rgb(255 255 255);
+    border-radius: 7px;
+    color: #4f5860;
+}

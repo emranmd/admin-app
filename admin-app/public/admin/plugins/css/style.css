@@ -1,0 +1,102 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif !important;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.card-body .text-primary {
+    color: #696cff!important;
+}
+.card-body .card-title {
+    margin-bottom: var(--bs-card-title-spacer-y) !important;
+    font-size: 1.125rem !important;
+    font-weight: 500 !important;
+    line-height: 1.1;
+}
+.card-body p {
+    margin-bottom: 1.5rem!important;
+    font-weight: 500;
+    color: #a6a6a6;
+}
+.btn-outline-primary:hover {
+    background-color: #595cd9!important;
+    border-color: #595cd9!important;
+    color: #fff!important;
+}
+
+/* basicTableArea start */
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.basicTableArea .addButton {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.addBtn {
+    position: relative;
+    padding-left: 40px;
+    color: white;
+    font-weight: 500;
+}
+.addBtn i {
+    background: rgba(0, 0, 0, .15);
+    position: absolute;
+    margin-top: 5px;
+    left: 0;
+    height: 100%;
+    top: -5px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.card-header h5 {
+    font-weight: 600;
+    font-size: 20px;
+    flex: 1;
+}
+.detailsSection .formGroup label {
+    font-size: 13px;
+    color: #504e4e;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detailsSection .btn_style {
+    font-family: sans-serif;
+    background: rgb(171 171 171 / 21%);
+    border-radius: 7px;
+}
+.detailsSection .submit_btn {
+    background: #2b73e2;
+    color: white !important;
+    font-family: sans-serif;
+}
+.detailsSection .formGroup {
+    position: relative;
+}
+.detailsSection .formIcons {
+    position: absolute;
+    top: 72%;
+    transform: translateY(-50%);
+    padding: 6.6px 7px;
+    margin-left: 1px;
+    color: #3f474e;
+}
+.detailsSection .formGroup input {
+    position: relative;
+    padding-left: 35px;
+    border-radius: 8px !important;
+}
+
+/* basicTableArea end */
+
+
