@@ -127,9 +127,31 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-widget="control-sidebar" data-controlsidebar-slide="true" href="#" role="button">
-          <i class="fas fa-th-large"></i>
+        <a href="" data-toggle="dropdown">
+                <img src="{{ asset('admin/images/AdminLTELogo.png') }}" class="logo_style" onclick="openMenu()">
         </a>
+        <div class="dropdown_menu">
+            <div class="items_wrap">
+                <ul>
+                    <li class="menu">
+                        <a href=""><span class="lg_icons"><i class="far fa-user"></i></span>Profile</a>
+                    </li>
+                    <li class="menu">
+                        <a href=""><span class="lg_icons"><i class="fas fa-bolt"></i></span>Activities</a>
+                    </li>
+                    <li class="menu">
+                        <a href=""><span class="lg_icons"><i class="fas fa-cog"></i></span>Settings</a>
+                    </li>
+                    <hr class="line">
+                    <li>
+                        <form action="" method="post">
+                            @csrf
+                            <button class="btn logOutBtn"><span class="lg_icons"><i class="fa-solid fa-right-from-bracket"></i></span>Log Out</button>
+                        </form>
+                    </li>
+                </ul>
+            </div><!-- items_wrap -->
+        </div><!-- authItemSection -->
       </li>
     </ul>
 </nav><!-- nav end -->

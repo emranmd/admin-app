@@ -1,0 +1,75 @@
+
+/* logOutBars style */
+
+
+.logo_style {
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgb(161 158 158 / 19%), 0 6px 6px rgb(151 151 151 / 23%);
+    max-width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.dropdown_menu {
+    position: absolute;
+    top: 56px;
+    right: 15px;
+    z-index: 99;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.3s ease-in-out;
+}
+.dropdown_menu.show{
+    max-height: 220px;
+}
+.items_wrap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.items_wrap {
+    background: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    padding: 20px 0;
+}
+.items_wrap ul li {
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    line-height: 0;
+    transition: all 0.3s ease-in-out;
+}
+.lg_icons i {
+    width: 33px;
+    height: 33px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+    border-radius: 50%;
+    color: #001a44;
+    margin-right: 12px;
+    font-size: 14px;
+}
+.items_wrap ul li a {
+    color: black;
+    font-family: sans-serif;
+}
+.items_wrap ul .menu:hover {
+    background: aquamarine;
+}
+.logOutBtn {
+    border: none;
+    transition: all .3s ease-in-out;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logOutBtn:hover{
+    color: #001a44;
+    font-weight: 600;
+}
+hr.line {
+    margin: 5px 0;
+}
+
+
+/* logOutBars style */

@@ -31,6 +31,8 @@
   <link rel="stylesheet" href="{{ asset('admin/plugins/css/style.css') }}">
   <!-- dark css -->
   {{-- <link rel="stylesheet" href="{{ asset('admin/css/dark.css') }}"> --}}
+  <!-- style.main.css -->
+  <link rel="stylesheet" href="{{ asset('admin/css/style.main.css') }}">
 
 </head>
 <body class="hold-transition sidebar-mini layout-fixed dark">

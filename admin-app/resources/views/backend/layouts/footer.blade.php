@@ -9,7 +9,8 @@
 </div>
 <!-- ./wrapper -->
 
-
+<!-- my.js -->
+<script src="{{ asset('admin/js/my.js') }}"></script>
 <!-- jQuery -->
 <script src="{{ asset('admin/plugins/jquery/jquery.min.js') }}"></script>
 <!-- jQuery UI 1.11.4 -->
